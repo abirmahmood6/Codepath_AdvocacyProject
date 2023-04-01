@@ -1,0 +1,53 @@
+This file is for important Notes from the sessions
+
+Use the CLASS attribute if to  select multiple  elements/tags
+Use the ID attribute if to select/work on only one elements/tags
+
+
+
+PADDING - Space inside the box/element
+MARGIN - Space outside the box/element
+
+
+
+
+JAVASCRIPT: 
+
+// Selects first h1 by tag name
+document.querySelector('h1');
+
+
+// Selects first element by class name
+document.querySelector('.about');
+
+
+// Selects element by id
+document.querySelector('#list-item');
+
+
+// Selects all paragraphs with intro cls
+document.querySelectorAll('p.intro');
+
+
+// Selects element by tag name
+document.getElementsByTagName('h1');
+
+
+// Selects element by class name
+document.getElementsByClassName('about');
+
+
+// Selects element by id
+document.getElementById('list-item');
+
+// Selects element by id using querySelector
+document.querySelector('#list-item'); 
+
+// Selects element by class using querySelector
+document.querySelector('.list-item');
+
+// Selects element by tag using querySelector. Returns first element with p tag
+document.querySelector('p');
+
+// Selects elements by tag using querySelectorAll. Returns all element with p tag
+document.querySelectorAll('p');
